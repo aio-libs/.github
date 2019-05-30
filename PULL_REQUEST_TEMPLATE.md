@@ -17,9 +17,10 @@
 - [ ] I think the code is well written
 - [ ] Unit tests for the changes exist
 - [ ] Documentation reflects the changes
-- [ ] If you provide code modification, please add yourself to `CONTRIBUTORS.txt`
+- [ ] If you provide code modification, please add yourself to `CONTRIBUTORS.txt` (if applicable)
   * The format is `<Name> <Surname>`.
   * Please keep alphabetical order, the file is sorted by names. 
+  * This can be skipped if there is no `CONTRIBUTORS.txt` in the repo
 - [ ] Add a new news fragment into the `CHANGES` folder
   * name it `<issue_id>.<type>` (e.g. `588.bugfix`)
   * if you don't have an `issue_id` change it to the pr id after creating the PR
