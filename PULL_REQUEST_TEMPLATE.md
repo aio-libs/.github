@@ -16,14 +16,10 @@
 
 - [ ] I think the code is well written
 - [ ] Unit tests for the changes exist
+- [ ] Unit tests have been run successfully for: _add or delete as necessary_
+   - [ ] Windows, using _____
+   - [ ] Linux, using _____
 - [ ] Documentation reflects the changes
-- [ ] Add a new news fragment into the `CHANGES` folder
-  * name it `<issue_id>.<type>` (e.g. `588.bugfix`)
-  * if you don't have an `issue_id` change it to the pr id after creating the PR
-  * ensure type is one of the following:
-    * `.feature`: Signifying a new feature.
-    * `.bugfix`: Signifying a bug fix.
-    * `.doc`: Signifying a documentation improvement.
-    * `.removal`: Signifying a deprecation or removal of public API.
-    * `.misc`: A ticket has been closed, but it is not of interest to users.
-  * Make sure to use full sentences with correct case and punctuation, for example: `Fix issue with non-ascii contents in doctest text files.`
+- [ ] Add news fragments into the `NEWS.rst` file
+   * Do not forget to refer to the relevant PR # or Issue #
+   * Use full sentences with correct case and punctuation
