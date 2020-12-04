@@ -1,0 +1,13 @@
+{
+    "output_dir": "output",
+    "source": "all_repos.source.github_org",
+    "source_settings":  {
+        "api_key": "$GITHUB_APIKEY",
+        "org": "aio-libs"
+    },
+    "push": "all_repos.push.github_pull_request",
+    "push_settings": {
+        "api_key": "$GITHUB_APIKEY",
+        "username": "$GITHUB_USENAME"
+    }
+}
