@@ -12,6 +12,9 @@ both [Andrew Svetlov] and [Sviatoslav Sydorenko]. You can choose to email
 us directly as well. We will try to assess the problem in timely manner
 and disclose it in a responsible way.
 
-[aio-libs security]: mailto:security@aio-libs.org
-[Andrew Svetlov]: mailto:andrew.svetlov+aio-libs-security@gmail.com
-[Sviatoslav Sydorenko]: mailto:wk+aio-libs-security@sydorenko.org.ua
+[aio-libs security]:
+mailto:"'%40aio-libs'%20security%20reports"%20<security@aio-libs.org>
+[Andrew Svetlov]:
+mailto:"Andrew%20'%40asvetlov'%20Svetlov"%20<andrew.svetlov+aio-libs-security@gmail.com>
+[Sviatoslav Sydorenko]:
+mailto:"Sviatoslav%20'%40webknjaz'%20Sydorenko"%20<wk+aio-libs-security@sydorenko.org.ua>
