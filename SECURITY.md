@@ -13,6 +13,8 @@ vulnerability report via GitHub directly. To do sok follow these instructions:
    possible.
 4. Click the green `Submit report` button at the bottom.
 
+## Don't have a GitHub account?
+
 Alternatively, drop an email to our [aio-libs security] mailbox instead of
 filing a ticket or posting to _any_ public groups. It is currently set up to
 forward every incoming letter to both [Andrew Svetlov] and [Sviatoslav
