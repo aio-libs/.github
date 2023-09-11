@@ -12,6 +12,9 @@ both [Andrew Svetlov] and [Sviatoslav Sydorenko]. You can choose to email
 us directly as well. We will try to assess the problem in timely manner
 and disclose it in a responsible way.
 
+Alternatively, fill out a [new vulnerability report via GitHub] directly.
+
+[new vulnerability report via GitHub]: advisories/new
 [aio-libs security]:
 mailto:"'%40aio-libs'%20security%20reports"%20<security@aio-libs.org>?subject=[Security%20issue%20report]%20[PROJECT_NAME]%20SHORT%20TITLE...&body=I%20am%20writing%20to%20inform%20you%20that%20PROJECT_NAME%20has%20a%20pottential%20vulnerability%20and%20here%20are%20extremely%20detailed%20steps%20of%20how%20to%20exploit%20this%20dangerous%20behavior:%0D%0A%0D%0A1.%0D%0A2.%0D%0A3.%0D%0A%0D%0A
 [Andrew Svetlov]:
