@@ -5,20 +5,19 @@ vulnerabilities as they are open for everyone to see! ⚠️**
 
 We encourage responsible disclosure practices for security vulnerabilities.
 
-If you believe you've found a security-related bug, drop an email to our
-[aio-libs security] mailbox instead of filing a ticket or posting to _any_
-public groups. It is currently set up to forward every incoming letter to
-both [Andrew Svetlov] and [Sviatoslav Sydorenko]. You can choose to email
-us directly as well. We will try to assess the problem in timely manner
-and disclose it in a responsible way.
-
-Alternatively, fill out a new vulnerability report via GitHub directly. To do
-so follow these instructions:
+If you believe you've found a security-related bug, fill out a new
+vulnerability report via GitHub directly. To do sok follow these instructions:
 1. Click on the `Security` tab in the project repository.
 2. Click the green `Report a vulnerability` button at the top right corner.
 3. Fill in the form as accurately as you can, including as many details as
    possible.
 4. Click the green `Submit report` button at the bottom.
+
+Alternatively, drop an email to our [aio-libs security] mailbox instead of
+filing a ticket or posting to _any_ public groups. It is currently set up to
+forward every incoming letter to both [Andrew Svetlov] and [Sviatoslav
+Sydorenko]. You can choose to email us directly as well. We will try to assess
+the problem in timely manner and disclose it in a responsible way.
 
 [aio-libs security]:
 mailto:"'%40aio-libs'%20security%20reports"%20<security@aio-libs.org>?subject=[Security%20issue%20report]%20[PROJECT_NAME]%20SHORT%20TITLE...&body=I%20am%20writing%20to%20inform%20you%20that%20PROJECT_NAME%20has%20a%20pottential%20vulnerability%20and%20here%20are%20extremely%20detailed%20steps%20of%20how%20to%20exploit%20this%20dangerous%20behavior:%0D%0A%0D%0A1.%0D%0A2.%0D%0A3.%0D%0A%0D%0A
