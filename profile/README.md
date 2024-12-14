@@ -23,7 +23,7 @@ https://img.shields.io/matrix/aio-libs-space:matrix.org?label=Discuss%20on%20Mat
 
 [GitHub Discussions Badge]:
 https://img.shields.io/github/discussions/aio-libs/.github?label=%F0%9F%92%AC%20GitHub%20Discussions
-[GitHub Discussions URL]: /orgs/aio-libs/discussions
+[GitHub Discussions URL]: https://github.com/orgs/aio-libs/discussions
 
 [Bluesky Badge]:
 https://img.shields.io/badge/-%40aio--libs.org-blue?logo=bluesky&logoColor=white&color=0285FF
@@ -37,8 +37,8 @@ https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ffosstodon.org%2Fapi%
 https://img.shields.io/stackexchange/stackoverflow/t/%5Baiohttp%5D?logo=stackoverflow&label=StackOverflow
 [StackOverflow URL]: https://stackoverflow.com/questions/tagged/aiohttp
 
-[aiohttp]: /aio-libs/aiohttp
-[ecosystem]: /orgs/aio-libs/repositories?type=source&q=fork%3Afalse
-[CoC]: /aio-libs/.github?tab=coc-ov-file#coc-ov-file
+[aiohttp]: https://github.com/aio-libs/aiohttp
+[ecosystem]: https://github.com/orgs/aio-libs/repositories?type=source&q=fork%3Afalse
+[CoC]: https://github.com/aio-libs/.github?tab=coc-ov-file#coc-ov-file
 [OC]: https://opencollective.com/aio-libs
-[security policy]: /aio-libs/.github?tab=security-ov-file#security-ov-file
+[security policy]: https://github.com/aio-libs/.github?tab=security-ov-file#security-ov-file
