@@ -7,6 +7,8 @@ We encourage responsible disclosure practices for security
 vulnerabilities.
 
 
+## Reporting a Vulnerability
+
 If you believe you've found a security-related bug, fill out a new
 vulnerability report via GitHub directly. To do so, follow these instructions:
 1. Click on the `Security` tab in the project repository.
