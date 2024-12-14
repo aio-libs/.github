@@ -3,7 +3,9 @@
 **⚠️ Please do not file public GitHub issues for security
 vulnerabilities as they are open for everyone to see! ⚠️**
 
-We encourage responsible disclosure practices for security vulnerabilities.
+We encourage responsible disclosure practices for security
+vulnerabilities.
+
 
 If you believe you've found a security-related bug, fill out a new
 vulnerability report via GitHub directly. To do so, follow these instructions:
@@ -12,6 +14,7 @@ vulnerability report via GitHub directly. To do so, follow these instructions:
 3. Fill in the form as accurately as you can, including as many details as
    possible.
 4. Click the green `Submit report` button at the bottom.
+
 
 ## Don't have a GitHub account?
 
