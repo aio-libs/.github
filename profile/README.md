@@ -3,7 +3,7 @@
 [![GitHub Discussions Badge]][GitHub Discussions URL]
 [![Bluesky Badge]][Bluesky URL]
 [![Mastodon Badge]][Mastodon URL]
-[![StackOverflow Badge]][StackOverflow Discussions URL]
+[![StackOverflow Badge]][StackOverflow URL]
 
 # 🚀 aio-libs: [aiohttp] and the [ecosystem]
 
