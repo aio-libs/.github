@@ -1,6 +1,6 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: 'v4.5.0'
+  rev: 'v5.0.0'
   hooks:
   - id: check-merge-conflict
     exclude: "rst$"
@@ -9,16 +9,16 @@ repos:
   hooks:
   - id: yesqa
 - repo: https://github.com/PyCQA/isort
-  rev: '5.13.0'
+  rev: '5.13.2'
   hooks:
   - id: isort
 - repo: https://github.com/psf/black
-  rev: '23.11.0'
+  rev: '24.10.0'
   hooks:
     - id: black
       language_version: python3 # Should be a command that runs python3.6+
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: 'v4.5.0'
+  rev: 'v5.0.0'
   hooks:
   - id: check-case-conflict
   - id: check-json
@@ -34,19 +34,19 @@ repos:
     args: ['--autofix']
 # Another entry is required to apply file-contents-sorter to another file
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: 'v4.5.0'
+  rev: 'v5.0.0'
   hooks:
   - id: file-contents-sorter
     files: |
       docs/spelling_wordlist.txt|
       .gitignore
 - repo: https://github.com/asottile/pyupgrade
-  rev: 'v3.15.0'
+  rev: 'v3.19.1'
   hooks:
   - id: pyupgrade
     args: ['--py36-plus']
 - repo: https://github.com/PyCQA/flake8
-  rev: '6.1.0'
+  rev: '7.1.1'
   hooks:
   - id: flake8
     exclude: "^docs/"
