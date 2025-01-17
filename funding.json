@@ -18,7 +18,7 @@
             "url": "https://github.com/aio-libs/aiohttp"
         },
         "repositoryUrl": {
-            "url": "https://github.com/aio-libs/aiohttp",
+            "url": "https://github.com/aio-libs/aiohttp"
         },
         "licenses": ["spdx:Apache-2.0"],
         "tags": ["api", "web-development", "python", "asyncio"]
@@ -28,7 +28,7 @@
             {
                 "guid": "opencollective",
                 "type": "other",
-                "address": "https://opencollective.com/aio-libs",
+                "address": "https://opencollective.com/aio-libs"
             }
         ],
         "plans": [
