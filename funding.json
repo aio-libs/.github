@@ -1,7 +1,7 @@
 {
   "entity": {
     "description": "We maintain asyncio libraries including aiohttp and dependencies.",
-    "email": "team@aiohttp.org",
+    "email": "sponsors+floss.fund@aio-libs.org",
     "name": "aio-libs: aiohttp and ecosystem",
     "role": "owner",
     "type": "group",
