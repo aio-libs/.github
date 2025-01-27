@@ -1,0 +1,57 @@
+{
+  "entity": {
+    "description": "We maintain asyncio libraries including aiohttp and dependencies.",
+    "email": "sponsors+floss.fund@aio-libs.org",
+    "name": "aio-libs: aiohttp and ecosystem",
+    "role": "owner",
+    "type": "group",
+    "webpageUrl": {
+      "url": "https://github.com/aio-libs/aiohttp/"
+    }
+  },
+  "funding": {
+    "channels": [
+      {
+        "address": "https://opencollective.com/aio-libs",
+        "guid": "opencollective",
+        "type": "other"
+      }
+    ],
+    "plans": [
+      {
+        "amount": 0,
+        "channels": [
+          "opencollective"
+        ],
+        "currency": "USD",
+        "frequency": "monthly",
+        "guid": "sponsorship",
+        "name": "Sponsorship",
+        "status": "active"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "description": "Asynchronous HTTP client/server framework for asyncio and Python",
+      "guid": "aiohttp",
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "name": "aiohttp",
+      "repositoryUrl": {
+        "url": "https://github.com/aio-libs/aiohttp"
+      },
+      "tags": [
+        "api",
+        "web-development",
+        "python",
+        "asyncio"
+      ],
+      "webpageUrl": {
+        "url": "https://github.com/aio-libs/aiohttp"
+      }
+    }
+  ],
+  "version": "v1.0.0"
+}
