@@ -5,12 +5,13 @@
 [![Mastodon Badge]][Mastodon URL]
 [![StackOverflow Badge]][StackOverflow URL]
 
-# 🚀 aio-libs: [aiohttp] and the [ecosystem]
+# 🚀 [aio-libs][aio-libs org]: [aiohttp][aiohttp repo] and the [ecosystem]
 
-aio-libs is a collaborative maintenance organization hosting a set of
+[aio-libs] is a collaborative maintenance organization hosting a set of
 asyncio-based libraries built with high quality, including [aiohttp].
 
-Make sure to check out our [CoC] and the [security policy].
+Make sure to check out our [CoC] and the [security policy]. You are
+required to follow them even if you are among the [aio-libs sponsors].
 
 
 [Matrix Room Badge]:
@@ -37,7 +38,11 @@ https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ffosstodon.org%2Fapi%
 https://img.shields.io/stackexchange/stackoverflow/t/%5Baiohttp%5D?logo=stackoverflow&label=StackOverflow
 [StackOverflow URL]: https://stackoverflow.com/questions/tagged/aiohttp
 
-[aiohttp]: https://github.com/aio-libs/aiohttp
+[aio-libs]: https://aio-libs.org
+[aio-libs sponsors]: https://aio-libs.org/sponsorship
+[aio-libs org]: https://github.com/aio-libs
+[aiohttp]: https://aiohttp.org
+[aiohttp repo]: https://github.com/aio-libs/aiohttp
 [ecosystem]: https://github.com/orgs/aio-libs/repositories?type=source&q=fork%3Afalse
 [CoC]: https://github.com/aio-libs/.github?tab=coc-ov-file#coc-ov-file
 [OC]: https://opencollective.com/aio-libs
