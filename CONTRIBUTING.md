@@ -45,7 +45,9 @@ Try to make your code brief, and recognize when less is more.
 #### Autonomous Code Submissions
 
 The use of agents which write code and submit pull requests without
-human review is not permitted.
+human review is not permitted (we have our own tools and can create
+automated AI workflows if we wanted this, so please don't dump your
+automated tools on us).
 
 #### Pull Request Templates
 
