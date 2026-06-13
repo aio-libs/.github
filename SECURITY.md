@@ -7,6 +7,14 @@ We encourage responsible disclosure practices for security
 vulnerabilities.
 
 
+## Before reporting a vulnerability
+
+1. If this repository contains ``THREAT_MODEL.md`` please refer to it
+   first to understand if your vulnerability is valid and in-scope.
+2. If this repository contains ``SECURITY_EXTRA.md`` please refer to it
+   and follow any additional directions specific to this repository.
+
+
 ## Reporting a Vulnerability
 
 If you believe you've found a security-related bug, fill out a new
