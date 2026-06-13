@@ -25,23 +25,35 @@ ORG = "aio-libs"
 RATE_LIMIT = 60 / 9  # Docs say 10 per minute, but only 9 seem to be allowed.
 DEPENDENTS_PATH = Path(f"{REPO}_dependents.json")
 
+
 def save_dependents():
     """Import and run this function to save the dependents, this may take ~6 hours for a project with 500k dependents."""
-    gh_deps_info = GithubDependentsInfo(f"{ORG}/{REPO}", sort_key="stars", min_stars=0, json_output=True)
+    gh_deps_info = GithubDependentsInfo(
+        f"{ORG}/{REPO}", sort_key="stars", min_stars=0, json_output=True
+    )
     dependents = gh_deps_info.collect()
     with DEPENDENTS_PATH.open("w") as f:
         json.dump(dependents, f, indent=4)
+
 
 if __name__ == "__main__":
     with DEPENDENTS_PATH.open() as f:
         dependents = json.load(f)
 
     url = "https://api.github.com/search/code"
-    headers = {"Accept": "application/vnd.github+json", "Authorization": f"Bearer {TOKEN}"}
-    repos = takewhile(lambda r: r["stars"] >= MIN_STARS, dependents["all_public_dependent_repos"][OFFSET:])
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"Bearer {TOKEN}",
+    }
+    repos = takewhile(
+        lambda r: r["stars"] >= MIN_STARS,
+        dependents["all_public_dependent_repos"][OFFSET:],
+    )
     for i, repo in enumerate(repos, OFFSET):
         sleep(RATE_LIMIT)
-        response = requests.get(url, headers=headers, params={"q": f"{SEARCH_TERM} repo:{repo['name']}"})
+        response = requests.get(
+            url, headers=headers, params={"q": f"{SEARCH_TERM} repo:{repo['name']}"}
+        )
         response.raise_for_status()
 
         result = response.json()
