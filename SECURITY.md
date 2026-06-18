@@ -13,6 +13,8 @@ vulnerabilities.
    first to understand if your vulnerability is valid and in-scope.
 2. If this repository contains `SECURITY_EXTRA.md` please refer to it
    and follow any additional directions specific to this repository.
+3. When writing the report, please use Github permalinks when referencing
+   any code in the project.
 
 
 ## Reporting a Vulnerability
