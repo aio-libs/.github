@@ -20,6 +20,15 @@
 3. When writing the report, please use
    [Github permalinks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet#linking-to-code)
    when referencing any code in the project.
+4. With understanding that this is open source software provided for
+   free and you might not receive a timely response, please consider
+   encouraging your employer to support the project maintenance via
+   [![GH Sponsors badge]][GH Sponsors URL]
+
+[GH Sponsors badge]:
+https://img.shields.io/badge/%40aio%27libs-transparent?logo=githubsponsors&logoColor=%23EA4AAA&label=Sponsor&color=2a313c
+[GH Sponsors URL]:
+https://github.com/sponsors/aio-libs
 
 
 ## Reporting a Vulnerability
