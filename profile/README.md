@@ -4,6 +4,7 @@
 [![Bluesky Badge]][Bluesky URL]
 [![Mastodon Badge]][Mastodon URL]
 [![StackOverflow Badge]][StackOverflow URL]
+[![GH Sponsors badge]][GH Sponsors URL]
 
 # 🚀 [aio-libs][aio-libs org]: [aiohttp][aiohttp repo] and the [ecosystem]
 
@@ -37,6 +38,11 @@ https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ffosstodon.org%2Fapi%
 [StackOverflow Badge]:
 https://img.shields.io/stackexchange/stackoverflow/t/%5Baiohttp%5D?logo=stackoverflow&label=StackOverflow
 [StackOverflow URL]: https://stackoverflow.com/questions/tagged/aiohttp
+
+[GH Sponsors badge]:
+https://img.shields.io/badge/%40aio--libs-transparent?logo=githubsponsors&logoColor=%23EA4AAA&label=Sponsor&color=2a313c
+[GH Sponsors URL]:
+https://github.com/sponsors/aio-libs
 
 [aio-libs]: https://aio-libs.org
 [aio-libs sponsors]: https://aio-libs.org/sponsorship
