@@ -1,1 +1,12 @@
-../FUNDING.yml
+---
+
+github:
+- aio-libs
+- webknjaz
+- Dreamsorcerer
+open_collective: aio-libs
+tidelift: pypi/aiohttp  # A single Tidelift platform-name/package-name e.g., npm/babel
+custom:
+- https://opencollective.com/aiohttp
+
+...
