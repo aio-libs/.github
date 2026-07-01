@@ -1,10 +1,14 @@
+> [!tip]
+> We encourage responsible disclosure practices for security issues.
+> This document explains how to share your concerns with us.
+
 # Reporting Vulnerabilities
 
-**⚠️ Please do not file public GitHub issues for security
-vulnerabilities as they are open for everyone to see! ⚠️**
-
-We encourage responsible disclosure practices for security
-vulnerabilities.
+> [!caution]
+> **Please do not make public announcements/discussions/issues/posts
+> about potential vulnerabilities on GitHub or any other spaces!**
+>
+> *⚠️ They must not be open for everyone to see ⚠️*
 
 
 ## Before reporting a vulnerability
