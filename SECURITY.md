@@ -26,7 +26,7 @@
    [![GH Sponsors badge]][GH Sponsors URL]
 
 [GH Sponsors badge]:
-https://img.shields.io/badge/%40aio%27libs-transparent?logo=githubsponsors&logoColor=%23EA4AAA&label=Sponsor&color=2a313c
+https://img.shields.io/badge/%40aio--libs-transparent?logo=githubsponsors&logoColor=%23EA4AAA&label=Sponsor&color=2a313c
 [GH Sponsors URL]:
 https://github.com/sponsors/aio-libs
 
