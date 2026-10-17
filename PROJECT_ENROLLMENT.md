@@ -184,11 +184,12 @@ After that:
 - A PyPI owner removes the publisher for the old location. A repository
   created there later could match it. Nobody adds a publisher for
   aio-libs-limbo, where members can create repositories.
-- A GitHub owner protects the `pypi` environment. aiofastnet releases
-  wait for an approval and a 15 minute timer ([#77][af77]). A workflow
-  that uses a missing environment creates it without any protection, so
-  a release that works does not prove the protection is there. Check it
-  by hand.
+- A GitHub owner protects the environment that the upload job uses,
+  usually `pypi`, and the PyPI publisher names the same environment.
+  aiofastnet releases wait for an approval and a 15 minute timer
+  ([#77][af77]). A workflow that uses a missing environment creates it
+  without any protection, so a release that works does not prove the
+  protection is there. Check it by hand.
 - If the project also uploads to TestPyPI, update the publisher there
   too. TestPyPI has its own accounts and organizations.
 - If the project publishes with an API token stored as a secret, switch
@@ -212,16 +213,7 @@ A GitHub owner:
 A PyPI owner checks the project's collaborators: ownership sits with the
 organization and the maintainers have the Maintainer role.
 
-Then you make a release, and the owners check that it waited for
-approval and reached PyPI.
-
-If the documentation is built on Read the Docs, check that it still
-builds. If it doesn't, the Read the Docs GitHub App needs access to the
-repository and the project needs to be [connected to it again][rtd-git].
-Ask an owner if you want a `<project>.aio-libs.org` domain like
-[aiosmtpd's][aiosmtpd-docs], or a Matrix room for the project.
-
-You also:
+You:
 
 - Search the repository for the old `<owner>/<repository>` and replace
   it: badges, images and clone commands in the README, `project.urls`
@@ -237,6 +229,15 @@ You also:
   organization's `FUNDING.yml`. Add your own file for anything you want
   to keep different.
 
+Then you make a release, and the owners check that it waited for
+approval and reached PyPI.
+
+If the documentation is built on Read the Docs, check that it still
+builds. If it doesn't, the Read the Docs GitHub App needs access to the
+repository and the project needs to be [connected to it again][rtd-git].
+Ask an owner if you want a `<project>.aio-libs.org` domain like
+[aiosmtpd's][aiosmtpd-docs], or a Matrix room for the project.
+
 ## Suggested follow-ups
 
 Owners may open issues titled "[aio-libs migration task] ..." for these.
@@ -249,9 +250,9 @@ project's call. Close the ones you don't want.
   your GitHub account ([#83][af83]).
 - Borrow the issue and pull request templates of other aio-libs
   projects such as yarl, multidict or aiohttp ([#78][af78]).
-- Adapt the organization's [security policy][security]. Say that
-  private vulnerability reporting is enabled and preferred
-  ([#79][af79]).
+- Turn on private vulnerability reporting if it is off, and adapt the
+  organization's [security policy][security] to say it is the preferred
+  way to report ([#79][af79]).
 - Link the community spaces from the README, such as the Code of
   Conduct, the project's Matrix room or GitHub Sponsors ([#80][af80]).
 - Manage release notes with Towncrier ([#82][af82]).
