@@ -47,11 +47,10 @@ already exists. Uploads fail until it does.
 - Open a thread in the [discussions]. Say what the project is, who will
   maintain it and whether the PyPI project should move too. [#55][d55]
   and [#45][d45] are examples.
-- In [#55][bdraco], an organization owner wrote that aio-libs does not
-  require political statements, banners or a modified license from any
-  project, that plain MIT is fine, and that the [Code of Conduct][coc]
-  applies in the project's spaces without covering project content,
-  licensing or dependencies.
+- aio-libs does not require political statements, banners or a
+  modified license from any project, and plain MIT is fine. The
+  [Code of Conduct][coc] applies in the project's spaces. It does not
+  cover project content, licensing or dependencies.
 - After the move, the aio-libs organizations own the repository and the
   PyPI project. You keep administering the repository through a team
   created for the project, and you get the Maintainer role on PyPI. A
@@ -275,8 +274,6 @@ See [#45][d45].
 [d45]: https://github.com/orgs/aio-libs/discussions/45
 [d53]: https://github.com/orgs/aio-libs/discussions/53
 [d55]: https://github.com/orgs/aio-libs/discussions/55
-[bdraco]:
-https://github.com/orgs/aio-libs/discussions/55#discussioncomment-18587207
 [coc]: CODE_OF_CONDUCT.md
 [security]: SECURITY.md
 [af-tasks]:
