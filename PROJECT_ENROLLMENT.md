@@ -5,12 +5,11 @@ GitHub organization and the [aio-libs organization on PyPI][pypi-org].
 It is for the project's maintainer and for the organization owners who
 do the move.
 
-aiofastnet was the first project moved this way, in September 2026
-([discussion][d55], [migration issues][af-tasks]). The GitHub and PyPI
-steps below follow what happened then. The notes on Read the Docs,
-removing the old trusted publisher, pending publishers and repositories
-owned by another organization come from the GitHub, PyPI and Read the
-Docs documentation and have not been tried yet.
+The steps below follow the move of aiofastnet in September 2026
+([discussion][d55], [migration issues][af-tasks]). The notes on Read the
+Docs, removing the old trusted publisher, pending publishers and
+repositories owned by another organization come from the GitHub, PyPI
+and Read the Docs documentation.
 
 ## Who does what
 
