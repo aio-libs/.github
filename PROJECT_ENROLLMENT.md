@@ -265,17 +265,49 @@ If the original repository or PyPI name can't be transferred, for
 example because its author can't be reached, this page doesn't apply.
 See [#45][d45].
 
+## References
+
+Discussions:
+
+- [aiofastnet transfer to aio-libs][d55]: the move these steps follow,
+  and the reply on [what aio-libs asks of a project][d55-policy].
+- [New PyPI org][d26]: moving projects into the PyPI organization.
+- [Zero-configuration secretless publishing to PyPI][d25]: trusted
+  publishing from GitHub Actions.
+- [Maintain aioresponses][d45]: a project whose repository and PyPI
+  name could not be transferred.
+- [Further 2FA hardening by only allowing secure methods][d53]: the
+  two-factor authentication requirement.
+
+Issues:
+
+- [aiofastnet migration tasks][af-tasks]: the suggested follow-ups.
+- [Let's put `aiosmtpd` under the `aio-libs` org on PyPI][sm391]: an
+  earlier move of a PyPI project into the organization.
+
+Documentation:
+
+- GitHub: [Transferring a repository][gh-transfer]
+- GitHub: [Restricting repository creation in your organization][gh-create]
+- PyPI: [Transferring a project to an organization][pypi-transfer]
+- PyPI: [Adding a trusted publisher][pypi-tp]
+- Read the Docs: [Git integration][rtd-git]
+
 [aio-libs]: https://github.com/aio-libs
 [aio-libs-limbo]: https://github.com/aio-libs-limbo
 [pypi-org]: https://pypi.org/org/aio-libs/
 [discussions]: https://github.com/orgs/aio-libs/discussions
 [dotgithub]: https://github.com/aio-libs/.github
+[d25]: https://github.com/orgs/aio-libs/discussions/25
 [d26]: https://github.com/orgs/aio-libs/discussions/26
 [d45]: https://github.com/orgs/aio-libs/discussions/45
 [d53]: https://github.com/orgs/aio-libs/discussions/53
 [d55]: https://github.com/orgs/aio-libs/discussions/55
+[d55-policy]:
+https://github.com/orgs/aio-libs/discussions/55#discussioncomment-18587207
 [coc]: CODE_OF_CONDUCT.md
 [security]: SECURITY.md
+[sm391]: https://github.com/aio-libs/aiosmtpd/issues/391
 [af-tasks]:
 https://github.com/aio-libs/aiofastnet/issues?q=is%3Aissue%20%22aio-libs%20migration%20task%22
 [af76]: https://github.com/aio-libs/aiofastnet/issues/76
@@ -291,6 +323,8 @@ https://github.com/aio-libs/aiofastnet/issues?q=is%3Aissue%20%22aio-libs%20migra
 [af88]: https://github.com/aio-libs/aiofastnet/issues/88
 [gh-transfer]:
 https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository
+[gh-create]:
+https://docs.github.com/en/organizations/managing-organization-settings/restricting-repository-creation-in-your-organization
 [gh-apps]: https://github.com/organizations/aio-libs/settings/installations
 [pypi-transfer]:
 https://docs.pypi.org/organization-accounts/actions/project-actions/#transfer-a-project
