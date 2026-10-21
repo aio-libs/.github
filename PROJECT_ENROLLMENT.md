@@ -46,11 +46,11 @@ already exists. Uploads fail until it does.
 
 - Open a thread in the [discussions]. Say what the project is, who will
   maintain it and whether the PyPI project should move too. [#55][d55]
-  and [#45][d45] are examples.
-- aio-libs does not require political statements, banners or a
-  modified license from any project, and plain MIT is fine. The
-  [Code of Conduct][coc] applies in the project's spaces. It does not
-  cover project content, licensing or dependencies.
+  is an example.
+- The one requirement is that the [Code of Conduct][coc] applies in the
+  project's spaces. It does not cover project content, licensing or
+  dependencies, so the project keeps its license (plain MIT is fine),
+  and adds no statements or banners unless it wants to.
 - After the move, the aio-libs organizations own the repository and the
   PyPI project. You keep administering the repository through a team
   created for the project, and you get the Maintainer role on PyPI. A
@@ -195,7 +195,8 @@ After that:
 - If the project publishes with an API token stored as a secret, switch
   to trusted publishing, revoke the token on PyPI and delete the secret.
   Give `id-token: write` only to the jobs that upload or sign, never to
-  the jobs that build ([#45][d45]).
+  the jobs that build, as the [trusted publishing docs][pypi-tp-use]
+  say.
 
 ## After the move
 
@@ -262,9 +263,9 @@ project's call. Close the ones you don't want.
 - If you rename the default branch, use the rename button in the
   repository settings so that GitHub adds redirects ([#88][af88]).
 
-If the original repository or PyPI name can't be transferred, for
-example because its author can't be reached, this page doesn't apply.
-See [#45][d45].
+This page covers transfers only. A fork of a project that stays with
+its author is a new project with its own name on GitHub and on PyPI,
+and it is proposed in a discussion like any other.
 
 ## References
 
@@ -275,8 +276,6 @@ Discussions:
 - [New PyPI org][d26]: moving projects into the PyPI organization.
 - [Zero-configuration secretless publishing to PyPI][d25]: trusted
   publishing from GitHub Actions.
-- [Maintain aioresponses][d45]: a project whose repository and PyPI
-  name could not be transferred.
 - [Further 2FA hardening by only allowing secure methods][d53]: the
   two-factor authentication requirement.
 
@@ -301,7 +300,6 @@ Documentation:
 [dotgithub]: https://github.com/aio-libs/.github
 [d25]: https://github.com/orgs/aio-libs/discussions/25
 [d26]: https://github.com/orgs/aio-libs/discussions/26
-[d45]: https://github.com/orgs/aio-libs/discussions/45
 [d53]: https://github.com/orgs/aio-libs/discussions/53
 [d55]: https://github.com/orgs/aio-libs/discussions/55
 [d55-policy]:
@@ -330,6 +328,7 @@ https://docs.github.com/en/organizations/managing-organization-settings/restrict
 [pypi-transfer]:
 https://docs.pypi.org/organization-accounts/actions/project-actions/#transfer-a-project
 [pypi-tp]: https://docs.pypi.org/trusted-publishers/adding-a-publisher/
+[pypi-tp-use]: https://docs.pypi.org/trusted-publishers/using-a-publisher/
 [rtd-git]:
 https://docs.readthedocs.com/platform/stable/reference/git-integration.html
 [aiosmtpd-docs]: https://aiosmtpd.aio-libs.org
